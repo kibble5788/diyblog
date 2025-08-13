@@ -6,11 +6,18 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "My Docs",
+      title: {
+		en:'My Docs',
+		'zh-cn': '我的文档',
+        text:  'My Docs',
+        link: "/",
+      },
+      description: "Documentation for my project",
+
       social: [
         {
           icon: "github",
-          label: "GitHub",
+          label: "GitHub1",
           href: "https://github.com/withastro/starlight",
         },
       ],
@@ -19,7 +26,7 @@ export default defineConfig({
           label: "Guides",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "example" },
+            { label: "Example Guide", slug: "example1/example" },
           ],
         },
         {

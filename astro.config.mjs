@@ -24,7 +24,7 @@ export default defineConfig({
         },
         {
           label: "Reference",
-          autogenerate: { directory: "zh-cn/example" },
+          autogenerate: { directory: "example1" },
         },
       ],
       // 为此网站设置英语为默认语言。

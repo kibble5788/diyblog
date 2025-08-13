@@ -3,7 +3,6 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "test": "playwright install --with-deps chromium && playwright test",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
